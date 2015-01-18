@@ -1,0 +1,33 @@
+{
+  "name": "bdd",
+  "version": "1.0.0",
+  "description": "Minimal BDD wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "cover": "node ./node_modules/.bin/istanbul cover test.js -- node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:julien/bdd.git"
+  },
+  "keywords": [
+    "b.d.d.",
+    "bdd",
+    "test",
+    "unit",
+    "minimal",
+    "browserify",
+    "node"
+  ],
+  "author": "Julien Castelain <jcastelain@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julien/bdd/issues"
+  },
+  "homepage": "https://github.com/julien/bdd",
+
+  "devDependencies": {
+    "istanbul": "latest"
+  }
+}
